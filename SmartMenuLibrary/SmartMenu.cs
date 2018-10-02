@@ -12,6 +12,7 @@ namespace SmartMenuLibrary
     {
         List<string> menuStructure = new List<string>(); // Laver en liste hvor menu strukturen gemmes
         List<string> menuPoints = new List<string>(); // Laver en liste med menu-id        
+        //Test Test
         public void LoadMenu(string path)
         {
             if(path == "Fejl") // Checker om filstien findes
