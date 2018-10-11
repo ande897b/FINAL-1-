@@ -19,7 +19,7 @@ namespace SmartMenuLibrary
             {
                 Console.WriteLine("Det indtastede menupunkt findes ikke, prøv igen."); 
             } else { 
-                System.IO.StreamReader sr = new System.IO.StreamReader(@"C:\Users\emil0\source\repos\ProjektProgrammering1(Anders,Kasper,Emil)\FINAL-1-\SmartMenuLibrary\" + path); // Åbner for filen
+                System.IO.StreamReader sr = new System.IO.StreamReader(@"..\..\..\SmartMenuLibrary\" + path); // Åbner for filen
 
                 string line = null;
                 int count = 1;
