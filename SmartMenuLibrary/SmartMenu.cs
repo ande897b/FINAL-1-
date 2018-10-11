@@ -19,7 +19,7 @@ namespace SmartMenuLibrary
             {
                 Console.WriteLine("Det indtastede menupunkt findes ikke, prøv igen."); 
             } else { 
-                System.IO.StreamReader sr = new System.IO.StreamReader(@"../../../SmartMenuLibrary/" + path); // Åbner for filen
+                System.IO.StreamReader sr = new System.IO.StreamReader(@"C:\Users\emil0\source\repos\ProjektProgrammering1(Anders,Kasper,Emil)\FINAL-1-\SmartMenuLibrary\" + path); // Åbner for filen
 
                 string line = null;
                 int count = 1;
@@ -70,6 +70,24 @@ namespace SmartMenuLibrary
                     case 4:
                         binding.callID(menuPoints[3]);
                         break;
+                    case 5:
+                        binding.callID(menuPoints[4]);
+                        break;
+                    case 6:
+                        binding.callID(menuPoints[5]);
+                        break;
+                    case 7:
+                        binding.callID(menuPoints[6]);
+                        break;
+                    case 8:
+                        binding.callID(menuPoints[7]);
+                        break;
+                    case 9:
+                        binding.callID(menuPoints[8]);
+                        break;
+                    case 10:
+                        binding.callID(menuPoints[9]);
+                        break;
                     default:
                         Console.WriteLine("Input var ikke et menupunkt.");
                         break;
@@ -89,6 +107,10 @@ namespace SmartMenuLibrary
             else if(language == 2)
             {
                 return "MenuSpecENG.txt";
+            }
+            else if (language == 3)
+            {
+                return "MenuSpecCalculator.txt";
             }
 
             return "Fejl"; // Hvis der ikke vælges dansk eller engelsk bliver der sendt en fejl

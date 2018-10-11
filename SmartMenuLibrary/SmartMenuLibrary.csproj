@@ -46,6 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MenuSpecCalculator.txt" />
     <Content Include="MenuSpecDK.txt" />
     <Content Include="MenuSpecENG.txt" />
   </ItemGroup>
